@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music History</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <header>
+    <a class = "skip" href="#skip">Skip to Main Content</a>
+  </header>
+  <h1>Music History</h1>
+  <div class="container">
+    <div class="tile" id="now" tabindex="0">
+      <h2>(Now) - Pop and Hip Hop</h2>
+      <img src="images/2000s.jpeg" alt="banner image for music from 2000s">
+    </div>
+    <div class="tile" id="90s" tabindex="0">
+      <h2>1990’s - Teen-Pop and Hip-Hop</h2>
+      <img src="images/1990s.jpeg" alt="banner image for music from 1990s">
+    </div>
+    <div class="tile" id="70s" tabindex="0">
+      <h2>1970’s - Disco Music</h2>
+      <img src="images/1970s.png" alt="banner image for music from 1970s">
+    </div>
+    <div class="tile" id="50s" tabindex="0">
+      <h2>1950's - R&B, Blues, Classic Pop, and Rock 'n' Roll</h2>
+      <img src="images/1950s.jpeg" alt="banner image for music from 1950s">
+    </div>
+    <div class="tile" id="40s" tabindex="0">
+      <h2>1940’s - Country</h2>
+      <img src="images/1940s.jpeg" alt="banner image for music from 1940s">
+    </div>
+    <div class="tile" id="20s" tabindex="0">
+      <h2>1920’s - Jazz</h2>
+      <img src="images/1920's.jpeg" alt="banner image for music from 1920s">
+    </div>
+    <div class="tile" id="1900s" tabindex="0">
+      <h2>1900’s - Operas</h2>
+      <img src="images/1900s.jpeg" alt="banner image for music from 1900s">
+    </div>
+  </div>
+
+  <div class="modal" id="modal">
+    <div class="modal-content" id="modal-content">
+      <span class="close" id="close" tabindex="0">&times;</span>
+      <h2 id="genre-title"></h2>
+      <h3>Top 5 Popular Songs:</h3>
+      <ul id="songs"></ul>
+      <h3>Top 5 Popular Artists:</h3>
+      <ul id="artists"></ul>
+    </div>
+  </div>
+
+  <script src="javascript/script.js"></script>
+</body>
+</html>
